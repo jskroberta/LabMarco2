@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  font-family:Helvetica;
+  text-align: left;
+  color: #fff;
+  background-color: #666; //azul
+  padding: 50px;
+  margin: 50px;
+  
+}
