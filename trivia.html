@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia grupo 2.2</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1> Ditados Populares </h1>
+  <h2> Este desafio é para testar os seus saberes culturais </h2>
+
+  <br><br>
+  Questão 1: Deus ajuda...
+  <div>
+    <ul>
+      <li>
+        <!--"li" deixa em lista -->
+        <input type="radio" name="grupo1">Quem cedo madruga</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo1">Quem cedo dorme</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo1">Quem nos aprovar na Laboratória </input>
+      </li>
+    </ul>
+  </div>
+  <!--input type cria o botao, value é o que vai aparecer escrito no botao,onclick aciona o botao, o que estiver dentro do onclick esta chamando a function do JS-->
+
+  <!-- forma 1 de criar botao - imput type, forma 1 de criar botao, forma 2 - button onclick,mais facil :)-->
+  <input type="button" value="Ver resposta" onclick="mostrarValorAlternativa()">
+  <!--<button onclick=""> exemplo de texto </button>-->
+
+
+  <script src=" script.js"></script>
+
+  <br><br><br><br>
+  Questão 2: De grão em grão...
+
+  <!-- <ul> lista não organizada, não numerada -->
+  <div>
+    <ul>
+      <li>
+        <!-- input type="radio" é o botão redondinho -->
+        <input type="radio" name="grupo2">A galinha enche o papo</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo2">A barriga fica cheia</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo2">Se faz uma farofa</input>
+      </li>
+    </ul>
+  </div>
+  <!-- input type="button" faz o botão bonitinho, value é o nome do botão e onclick é a resposta
+que vem com o clique -->
+
+  <button onclick="chickenAnswer()">Ver resposta</button>
+
+  <script src=" script.js"></script>
+
+  <br><br><br><br>
+  Questão 3: Quem tem boca...
+
+  <!-- <ul> lista não organizada, não numerada -->
+  <div>
+    <ul>
+      <li>
+        <!-- input type="radio" é o botão redondinho -->
+        <input type="radio" name="grupo3">Vai a Roma</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo3">Vai ao Restaurante</input>
+      </li>
+      <li>
+        <input type="radio" name="grupo3">Ao dentista</input>
+      </li>
+    </ul>
+  </div>
+  <!-- input type="button" faz o botão bonitinho, value é o nome do botão e onclick é a resposta
+que vem com o clique -->
+
+  <button onclick="goToRome()">Ver resposta</button>
+
+  <script src=" script.js"></script>
+
+  <br><br><br><br>
+  <img src=https://avaazdo.s3.amazonaws.com/0c8d4c6f49f7faf7410ed76186a4eeef.png alt="galinha">
+  <footer>
+    <p>Pamela Dándolo&copy and Jéssica Such&copy; 2023 </p>
+
+  </footer>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

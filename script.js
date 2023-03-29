@@ -1,5 +1,5 @@
-let welcomeBox = prompt("Seja bem vinde! Diga o seu nome!");
-let name = alert("Bem vinde " + welcomeBox);
+
+
 
 
 function mostrarValorAlternativa() {
@@ -9,7 +9,7 @@ function mostrarValorAlternativa() {
   console.log(listaRadios);
 
   if (listaRadios[0].checked == true) {
-    alert("Parabéns! " + welcomeBox)
+    alert("Parabéns voce acertou! ")
   } else {
     alert("Resposta incorreta");
   }
@@ -23,7 +23,7 @@ function chickenAnswer() {
   console.log(chickenAnswer);
 
   if (listaRadios[0].checked == true) {
-    alert("Parabens! " + welcomeBox);
+    alert("Parabéns voce acertou");
   } else {
     alert("Resposta incorreta")
   }
@@ -34,7 +34,7 @@ function goToRome() {
   console.log(goToRome);
 
   if (listaRadios[0].checked == true) {
-    alert("Parabens! " + welcomeBox);
+    alert("Parabéns voce acertou");
   } else {
     alert("Resposta incorreta")
   }
